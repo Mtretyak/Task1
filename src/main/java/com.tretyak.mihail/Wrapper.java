@@ -1,6 +1,7 @@
 package com.tretyak.mihail;
 
 public class Wrapper {
+
     private boolean stop;
 
     public Wrapper(boolean stop) {

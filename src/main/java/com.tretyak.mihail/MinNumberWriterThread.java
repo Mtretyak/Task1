@@ -4,6 +4,7 @@ import java.util.concurrent.ConcurrentSkipListSet;
 import java.util.concurrent.TimeUnit;
 
 public class MinNumberWriterThread extends Thread {
+
     private ConcurrentSkipListSet<Integer> numbers;
 
     private volatile Wrapper stopWrapper;

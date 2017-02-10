@@ -4,6 +4,7 @@ import java.util.Scanner;
 import java.util.concurrent.ConcurrentSkipListSet;
 
 public class NumberReaderThread extends Thread {
+
     private ConcurrentSkipListSet<Integer> numbers;
 
     private volatile Wrapper stopWrapper;
